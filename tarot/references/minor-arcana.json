@@ -1,0 +1,396 @@
+{
+  "minor_arcana": [
+    {
+      "id": "wand-01", "name": "权杖王牌", "name_en": "Ace of Wands", "aliases": ["权杖一", "权杖1"], "number": 1, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["新的激情", "创造力", "灵感", "行动的开端", "生命力"],
+      "keywords_reversed": ["热情消退", "延迟的开始", "灵感受阻", "缺乏动力"],
+      "meaning_upright": "权杖王牌代表新的激情与创造力的火种。一根权杖从云中伸出，象征灵感与行动力的爆发，是开启新项目、点燃热情的时机。",
+      "meaning_reversed": "火种未能点燃。可能是热情消退、灵感受阻，或新的开始被推迟。"
+    },
+    {
+      "id": "wand-02", "name": "权杖二", "name_en": "Two of Wands", "aliases": ["权杖2"], "number": 2, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["规划", "远见", "抉择", "扩张", "全局观"],
+      "keywords_reversed": ["缺乏远见", "害怕走出舒适区", "犹豫"],
+      "meaning_upright": "权杖二象征规划与远见。手持地球眺望远方，代表在取得初步成果后规划更大的蓝图，权衡下一步的抉择。",
+      "meaning_reversed": "安于现状、缺乏远见，或因害怕未知而迟迟不敢迈出下一步。"
+    },
+    {
+      "id": "wand-03", "name": "权杖三", "name_en": "Three of Wands", "aliases": ["权杖3"], "number": 3, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["扩张", "远航", "收获在望", "前瞻", "合作"],
+      "keywords_reversed": ["受阻", "延迟", "缺乏远见", "计划落空"],
+      "meaning_upright": "权杖三象征扩张与前瞻。站在高处眺望远航的船只，代表计划已铺开、成果在望，等待远方的机遇到来。",
+      "meaning_reversed": "扩张受阻或计划延迟。可能是时机未到，或对未来的判断出现偏差。"
+    },
+    {
+      "id": "wand-04", "name": "权杖四", "name_en": "Four of Wands", "aliases": ["权杖4"], "number": 4, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["庆祝", "稳定", "和谐", "里程碑", "家园", "成果"],
+      "keywords_reversed": ["不稳定", "延迟的庆祝", "缺乏归属感"],
+      "meaning_upright": "权杖四象征庆祝与阶段性的成果。花环装点的门柱代表稳固与和谐，是值得庆祝、享受成果的时刻。",
+      "meaning_reversed": "喜悦被推迟，或基础不够稳固，缺乏归属感与安全感。"
+    },
+    {
+      "id": "wand-05", "name": "权杖五", "name_en": "Five of Wands", "aliases": ["权杖5"], "number": 5, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["竞争", "冲突", "意见不合", "混乱", "磨炼"],
+      "keywords_reversed": ["冲突化解", "回避竞争", "内耗", "求和"],
+      "meaning_upright": "权杖五象征竞争与冲突。多人持杖交错，代表意见不合、竞争与混乱，但这些摩擦也可能激发出新的火花。",
+      "meaning_reversed": "冲突的化解，或回避正面竞争，可能造成内耗。"
+    },
+    {
+      "id": "wand-06", "name": "权杖六", "name_en": "Six of Wands", "aliases": ["权杖6"], "number": 6, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["胜利", "认可", "荣誉", "自信", "凯旋"],
+      "keywords_reversed": ["缺乏认可", "失败", "虚荣", "自信受挫"],
+      "meaning_upright": "权杖六象征胜利与认可。凯旋者骑白马归来，头戴桂冠，代表努力得到回报、获得公众认可与荣誉。",
+      "meaning_reversed": "胜利落空或缺乏认可。可能是成果不被看见，或建立在虚荣之上。"
+    },
+    {
+      "id": "wand-07", "name": "权杖七", "name_en": "Seven of Wands", "aliases": ["权杖7"], "number": 7, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["坚守", "防御", "挑战", "勇气", "捍卫立场"],
+      "keywords_reversed": ["招架不住", "放弃立场", "压力过大"],
+      "meaning_upright": "权杖七象征坚守与防御。站在高处抵挡来袭，代表在优势位置捍卫自己的立场，勇敢面对挑战。",
+      "meaning_reversed": "难以招架压力，或选择放弃立场，感到孤立无援。"
+    },
+    {
+      "id": "wand-08", "name": "权杖八", "name_en": "Eight of Wands", "aliases": ["权杖8"], "number": 8, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["快速行动", "进展", "消息", "动能", "一气呵成"],
+      "keywords_reversed": ["延迟", "停滞", "错过时机", "急躁出错"],
+      "meaning_upright": "权杖八象征快速行动与进展。八根权杖在空中疾飞，代表事情加速推进、消息传来、机遇稍纵即逝。",
+      "meaning_reversed": "进展受阻或延迟，因急躁而失误，错过最佳时机。"
+    },
+    {
+      "id": "wand-09", "name": "权杖九", "name_en": "Nine of Wands", "aliases": ["权杖9"], "number": 9, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["坚持", "韧性", "警惕", "最后的防守", "伤痕后的坚持"],
+      "keywords_reversed": ["疲惫", "放弃", "过度防御", "身心俱疲"],
+      "meaning_upright": "权杖九象征坚韧与坚持。身负伤痕仍坚守阵地，代表经历了考验后依然屹立，保持着最后的警惕与韧性。",
+      "meaning_reversed": "身心俱疲、接近放弃，或过度防御而无法放松。"
+    },
+    {
+      "id": "wand-10", "name": "权杖十", "name_en": "Ten of Wands", "aliases": ["权杖10"], "number": 10, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["负担", "责任过重", "压力", "坚持到底", "负荷"],
+      "keywords_reversed": ["卸下负担", "过度劳累", "放下", "拒绝求助"],
+      "meaning_upright": "权杖十象征沉重的负担与责任。背负重担前行，代表承担了过多的责任，虽在坚持却倍感压力。",
+      "meaning_reversed": "负担过重而需要放下，或拒绝寻求帮助，导致身心俱疲。"
+    },
+    {
+      "id": "wand-page", "name": "权杖侍从", "name_en": "Page of Wands", "aliases": ["权杖侍者"], "number": 11, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["热情", "探索", "新消息", "好奇心", "潜能"],
+      "keywords_reversed": ["三分钟热度", "缺乏方向", "延迟的消息"],
+      "meaning_upright": "权杖侍从象征热情与探索精神。充满好奇地探索新领域，代表新的消息、灵感与尚未成型的潜能。",
+      "meaning_reversed": "热情难以持久，缺乏方向，或期待的消息迟迟未到。"
+    },
+    {
+      "id": "wand-knight", "name": "权杖骑士", "name_en": "Knight of Wands", "aliases": ["权杖骑士"], "number": 12, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["冒险", "激情", "行动", "冲劲", "追求"],
+      "keywords_reversed": ["鲁莽", "冲动", "半途而废", "缺乏耐心"],
+      "meaning_upright": "权杖骑士象征激情与冲劲。策马奔驰追求目标，代表旺盛的行动力与冒险精神，勇往直前。",
+      "meaning_reversed": "冲动鲁莽、缺乏耐心，热情来得快去得也快，容易半途而废。"
+    },
+    {
+      "id": "wand-queen", "name": "权杖皇后", "name_en": "Queen of Wands", "aliases": ["权杖女王"], "number": 13, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["自信", "魅力", "热情", "独立", "吸引力"],
+      "keywords_reversed": ["嫉妒", "缺乏自信", "专横", "情绪化"],
+      "meaning_upright": "权杖皇后象征自信与魅力。她热情、独立、充满吸引力，代表以自信与温暖的能量感染他人。",
+      "meaning_reversed": "自信受挫，或因嫉妒、专横而消耗自己的魅力。"
+    },
+    {
+      "id": "wand-king", "name": "权杖国王", "name_en": "King of Wands", "aliases": ["权杖君王"], "number": 14, "arcana": "minor", "suit": "权杖", "element": "火",
+      "keywords_upright": ["领导力", "远见", "魄力", "创业精神", "魅力领袖"],
+      "keywords_reversed": ["独断", "傲慢", "专制", "冲动决策"],
+      "meaning_upright": "权杖国王象征领导力与远见。他是充满魄力的领袖，代表以愿景引领他人、开创事业的雄心与魅力。",
+      "meaning_reversed": "领导力走向独断与傲慢，或决策冲动、缺乏耐心。"
+    },
+    {
+      "id": "cup-01", "name": "圣杯王牌", "name_en": "Ace of Cups", "aliases": ["圣杯一", "圣杯1"], "number": 1, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["新的情感", "爱", "直觉", "喜悦", "情感的开端"],
+      "keywords_reversed": ["情感封闭", "压抑", "错失的爱", "情绪枯竭"],
+      "meaning_upright": "圣杯王牌象征新的情感与爱。圣杯满溢而出，代表情感的流动、爱的开启、灵性的喜悦与直觉的涌现。",
+      "meaning_reversed": "情感被封闭或压抑，或错失了表达爱的机会。"
+    },
+    {
+      "id": "cup-02", "name": "圣杯二", "name_en": "Two of Cups", "aliases": ["圣杯2"], "number": 2, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["联结", "伙伴关系", "相互吸引", "和谐", "情感的契约"],
+      "keywords_reversed": ["失衡的关系", "误解", "分离", "不和谐"],
+      "meaning_upright": "圣杯二象征联结与伙伴关系。两人举杯相向，代表相互吸引、和谐的情感联结，是关系深化的时刻。",
+      "meaning_reversed": "关系失衡或产生误解，情感的联结出现裂痕。"
+    },
+    {
+      "id": "cup-03", "name": "圣杯三", "name_en": "Three of Cups", "aliases": ["圣杯3"], "number": 3, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["庆祝", "友谊", "欢聚", "合作", "分享喜悦"],
+      "keywords_reversed": ["过度放纵", "疏离", "闲言", "排外"],
+      "meaning_upright": "圣杯三象征庆祝与友谊。三人举杯共庆，代表分享喜悦、友谊与集体的庆祝，是欢乐团聚的时刻。",
+      "meaning_reversed": "过度放纵或感到疏离，聚会背后可能暗藏闲言或排他。"
+    },
+    {
+      "id": "cup-04", "name": "圣杯四", "name_en": "Four of Cups", "aliases": ["圣杯4"], "number": 4, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["倦怠", "不满", "沉思", "错失机会", "无动于衷"],
+      "keywords_reversed": ["重新投入", "接受机会", "觉醒", "走出倦怠"],
+      "meaning_upright": "圣杯四象征倦怠与不满。对眼前的三个圣杯无动于衷，忽视了云端递来的新机会，代表情绪的低落与对现状的不满。",
+      "meaning_reversed": "从倦怠中走出，重新接受机会、投入生活。"
+    },
+    {
+      "id": "cup-05", "name": "圣杯五", "name_en": "Five of Cups", "aliases": ["圣杯5"], "number": 5, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["失落", "遗憾", "悲伤", "关注失去", "哀悼"],
+      "keywords_reversed": ["接受", "放下", "疗愈", "重新振作"],
+      "meaning_upright": "圣杯五象征失落与遗憾。低头注视倒下的三个圣杯，却忽略了身后仍站立的两个，代表沉溺于失去而忽视了仍拥有的。",
+      "meaning_reversed": "逐渐放下悲伤、接受现实，转向疗愈与重新振作。"
+    },
+    {
+      "id": "cup-06", "name": "圣杯六", "name_en": "Six of Cups", "aliases": ["圣杯6"], "number": 6, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["怀旧", "童年", "纯真", "回忆", "旧识"],
+      "keywords_reversed": ["沉溺过去", "停滞", "无法放下", "走出回忆"],
+      "meaning_upright": "圣杯六象征怀旧与纯真。回到童年的温馨回忆，代表怀旧、纯真的情感，或与旧识重逢。",
+      "meaning_reversed": "沉溺于过去而停滞不前，需要走出回忆、面对当下。"
+    },
+    {
+      "id": "cup-07", "name": "圣杯七", "name_en": "Seven of Cups", "aliases": ["圣杯7"], "number": 7, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["幻想", "选择过多", "白日梦", "诱惑", "不切实际"],
+      "keywords_reversed": ["看清现实", "做出选择", "清醒", "脚踏实地"],
+      "meaning_upright": "圣杯七象征幻想与选择过多。面对漂浮的种种幻象，代表沉溺于白日梦、难以抉择，或面对过多诱惑。",
+      "meaning_reversed": "从幻想中清醒，看清现实并做出务实的抉择。"
+    },
+    {
+      "id": "cup-08", "name": "圣杯八", "name_en": "Eight of Cups", "aliases": ["圣杯8"], "number": 8, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["离开", "寻求更深的意义", "放下", "踏上旅程"],
+      "keywords_reversed": ["犹豫不决", "害怕离开", "逃避", "原地徘徊"],
+      "meaning_upright": "圣杯八象征离开与寻求更深的意义。转身离开已满的圣杯，踏上未知的旅程，代表放下既有、追寻更高层次的目标。",
+      "meaning_reversed": "犹豫是否离开，或因害怕而逃避改变、原地徘徊。"
+    },
+    {
+      "id": "cup-09", "name": "圣杯九", "name_en": "Nine of Cups", "aliases": ["圣杯9"], "number": 9, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["满足", "愿望达成", "喜悦", "享受", "丰盛"],
+      "keywords_reversed": ["不满足", "过度放纵", "表面满足", "空虚"],
+      "meaning_upright": "圣杯九象征满足与愿望达成。安坐于九个圣杯前，代表心愿实现、情感丰盛与享受成果的满足感。",
+      "meaning_reversed": "表面的满足掩盖内心的空虚，或过度放纵导致不满足。"
+    },
+    {
+      "id": "cup-10", "name": "圣杯十", "name_en": "Ten of Cups", "aliases": ["圣杯10"], "number": 10, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["圆满", "家庭幸福", "和谐", "情感满足", "归宿"],
+      "keywords_reversed": ["家庭不睦", "梦想破灭", "缺乏归属", "表面和谐"],
+      "meaning_upright": "圣杯十象征圆满与家庭幸福。彩虹下的幸福家庭，代表情感的圆满、家庭和谐与内心的归宿感。",
+      "meaning_reversed": "家庭不睦或表面的和谐，情感上的圆满难以达成。"
+    },
+    {
+      "id": "cup-page", "name": "圣杯侍从", "name_en": "Page of Cups", "aliases": ["圣杯侍者"], "number": 11, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["敏感", "创意", "爱的讯息", "直觉", "浪漫"],
+      "keywords_reversed": ["情绪化", "不切实际", "情感幼稚", "被拒"],
+      "meaning_upright": "圣杯侍从象征敏感与创意。捧着冒出鱼的圣杯，代表情感的讯息、浪漫的直觉与创意的萌生。",
+      "meaning_reversed": "情绪化、不切实际，或情感上的不成熟。"
+    },
+    {
+      "id": "cup-knight", "name": "圣杯骑士", "name_en": "Knight of Cups", "aliases": ["圣杯骑士"], "number": 12, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["浪漫", "追求", "情感表达", "理想主义", "邀约"],
+      "keywords_reversed": ["空想", "情感泛滥", "不真诚", "忽冷忽热"],
+      "meaning_upright": "圣杯骑士象征浪漫与情感追求。策马献上圣杯，代表浪漫的追求、情感的邀约与理想主义的表达。",
+      "meaning_reversed": "情感空想、不真诚，或情绪忽冷忽热。"
+    },
+    {
+      "id": "cup-queen", "name": "圣杯皇后", "name_en": "Queen of Cups", "aliases": ["圣杯女王"], "number": 13, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["同理心", "温柔", "直觉", "关怀", "情感智慧"],
+      "keywords_reversed": ["情绪泛滥", "依赖", "敏感过度", "缺乏边界"],
+      "meaning_upright": "圣杯皇后象征同理心与情感智慧。她温柔、直觉敏锐，代表深切的关怀、理解与情绪的包容力。",
+      "meaning_reversed": "情绪过度泛滥、依赖他人，或缺乏情感边界。"
+    },
+    {
+      "id": "cup-king", "name": "圣杯国王", "name_en": "King of Cups", "aliases": ["圣杯君王"], "number": 14, "arcana": "minor", "suit": "圣杯", "element": "水",
+      "keywords_upright": ["情绪成熟", "包容", "冷静", "慈悲", "情感的掌控"],
+      "keywords_reversed": ["情绪失控", "冷漠", "压抑", "操纵情感"],
+      "meaning_upright": "圣杯国王象征情绪的成熟与掌控。他冷静、包容、慈悲，代表在情感波涛中保持平衡与智慧。",
+      "meaning_reversed": "情绪失控、冷漠，或以情感操纵他人。"
+    },
+    {
+      "id": "sword-01", "name": "宝剑王牌", "name_en": "Ace of Swords", "aliases": ["宝剑一", "宝剑1"], "number": 1, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["真相", "清晰", "突破", "新思维", "决断", "正义"],
+      "keywords_reversed": ["混乱", "误解", "真相被蒙蔽", "错误的判断"],
+      "meaning_upright": "宝剑王牌象征真相与清晰。宝剑高举，代表思维的突破、真相的揭示与清晰的决断，是拨云见日的时刻。",
+      "meaning_reversed": "思维混乱、真相被蒙蔽，或判断出现偏差。"
+    },
+    {
+      "id": "sword-02", "name": "宝剑二", "name_en": "Two of Swords", "aliases": ["宝剑2"], "number": 2, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["僵局", "逃避决定", "蒙蔽", "平衡的假象", "视而不见"],
+      "keywords_reversed": ["打破僵局", "面对真相", "做出决定"],
+      "meaning_upright": "宝剑二象征僵局与逃避决定。蒙眼持剑，代表刻意回避真相、拒绝面对，陷入自我保护的僵局。",
+      "meaning_reversed": "打破僵局，摘下眼罩面对真相、做出决定。"
+    },
+    {
+      "id": "sword-03", "name": "宝剑三", "name_en": "Three of Swords", "aliases": ["宝剑3"], "number": 3, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["心碎", "痛苦", "背叛", "悲伤", "情感的创伤"],
+      "keywords_reversed": ["疗愈", "释怀", "走出痛苦", "宽恕"],
+      "meaning_upright": "宝剑三象征心碎与痛苦。三把剑刺穿心脏，代表情感的创伤、背叛与悲伤，是直面痛苦的时刻。",
+      "meaning_reversed": "创伤逐渐愈合，学会释怀与宽恕，走出痛苦。"
+    },
+    {
+      "id": "sword-04", "name": "宝剑四", "name_en": "Four of Swords", "aliases": ["宝剑4"], "number": 4, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["休息", "恢复", "沉思", "静养", "暂停"],
+      "keywords_reversed": ["倦怠后的苏醒", "无法休息", "复出", "焦躁"],
+      "meaning_upright": "宝剑四象征休息与恢复。骑士静卧安眠，代表暂停、静养与身心的恢复，是需要充电的时刻。",
+      "meaning_reversed": "无法真正休息，或从倦怠中苏醒、准备重新出发。"
+    },
+    {
+      "id": "sword-05", "name": "宝剑五", "name_en": "Five of Swords", "aliases": ["宝剑5"], "number": 5, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["冲突", "胜利的代价", "勾心斗角", "两败俱伤"],
+      "keywords_reversed": ["和解", "放下争执", "吸取教训", "缓和"],
+      "meaning_upright": "宝剑五象征冲突与胜利的代价。虽赢得战斗却留下怨怼，代表两败俱伤的争执、勾心斗角。",
+      "meaning_reversed": "放下争执、寻求和解，或从冲突中吸取教训。"
+    },
+    {
+      "id": "sword-06", "name": "宝剑六", "name_en": "Six of Swords", "aliases": ["宝剑6"], "number": 6, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["过渡", "离开困境", "疗愈", "平静的旅程", "前行"],
+      "keywords_reversed": ["难以离开", "困境重现", "停滞", "无法释怀"],
+      "meaning_upright": "宝剑六象征过渡与疗愈。乘船离开湍急的水域，代表从困境中缓缓走出、迈向平静的过程。",
+      "meaning_reversed": "难以真正离开困境，或旧问题重现、停滞不前。"
+    },
+    {
+      "id": "sword-07", "name": "宝剑七", "name_en": "Seven of Swords", "aliases": ["宝剑7"], "number": 7, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["策略", "隐瞒", "狡黠", "独自行动", "权宜之计"],
+      "keywords_reversed": ["坦白", "暴露", "回归诚实", "卸下伪装"],
+      "meaning_upright": "宝剑七象征策略与隐瞒。悄悄带走宝剑，代表以机巧与隐瞒达成目的，或需要独自行动。",
+      "meaning_reversed": "真相被揭露，回归诚实，卸下伪装。"
+    },
+    {
+      "id": "sword-08", "name": "宝剑八", "name_en": "Eight of Swords", "aliases": ["宝剑8"], "number": 8, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["束缚", "自我设限", "无力感", "恐惧", "思维受限"],
+      "keywords_reversed": ["挣脱束缚", "看清出路", "重获自由", "突破思维"],
+      "meaning_upright": "宝剑八象征束缚与自我设限。被剑环绕却非真正被绑，代表困住自己的往往是思维与恐惧。",
+      "meaning_reversed": "挣脱自我设限的束缚，看清出路、重获自由。"
+    },
+    {
+      "id": "sword-09", "name": "宝剑九", "name_en": "Nine of Swords", "aliases": ["宝剑9"], "number": 9, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["焦虑", "失眠", "担忧", "内疚", "精神折磨"],
+      "keywords_reversed": ["焦虑缓解", "正视恐惧", "走出阴霾", "放下担忧"],
+      "meaning_upright": "宝剑九象征焦虑与精神折磨。夜半惊醒，代表深重的担忧、内疚与无法摆脱的焦虑。",
+      "meaning_reversed": "焦虑逐渐缓解，正视恐惧、放下无谓的担忧。"
+    },
+    {
+      "id": "sword-10", "name": "宝剑十", "name_en": "Ten of Swords", "aliases": ["宝剑10"], "number": 10, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["终点", "谷底", "崩溃", "结束", "绝处"],
+      "keywords_reversed": ["触底反弹", "开始恢复", "走出谷底", "重生"],
+      "meaning_upright": "宝剑十象征谷底与终结。背插十剑，代表事情走到最坏的地步、彻底的结束，但黑暗之后即是黎明。",
+      "meaning_reversed": "已到谷底，开始触底反弹、逐渐恢复。"
+    },
+    {
+      "id": "sword-page", "name": "宝剑侍从", "name_en": "Page of Swords", "aliases": ["宝剑侍者"], "number": 11, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["好奇", "警觉", "新想法", "求知", "讯息"],
+      "keywords_reversed": ["多疑", "急躁", "流言", "缺乏深度"],
+      "meaning_upright": "宝剑侍从象征好奇与警觉。充满求知欲，代表新的想法、讯息与敏锐的观察。",
+      "meaning_reversed": "多疑、急躁，或轻信流言、缺乏深度思考。"
+    },
+    {
+      "id": "sword-knight", "name": "宝剑骑士", "name_en": "Knight of Swords", "aliases": ["宝剑骑士"], "number": 12, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["果断", "冲劲", "直言", "迅速", "勇往直前"],
+      "keywords_reversed": ["鲁莽", "冲动", "咄咄逼人", "缺乏考虑"],
+      "meaning_upright": "宝剑骑士象征果断与冲劲。策马疾驰，代表迅速的决断、直接的行动与勇往直前的气势。",
+      "meaning_reversed": "鲁莽冲动、咄咄逼人，行动前缺乏深思熟虑。"
+    },
+    {
+      "id": "sword-queen", "name": "宝剑皇后", "name_en": "Queen of Swords", "aliases": ["宝剑女王"], "number": 13, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["独立", "清醒", "睿智", "坦诚", "理性"],
+      "keywords_reversed": ["冷漠", "苛刻", "刻薄", "过度理性"],
+      "meaning_upright": "宝剑皇后象征独立与清醒。她坦诚、睿智、理性，代表以清晰的头脑与独立的判断面对世界。",
+      "meaning_reversed": "理性过头变得冷漠苛刻，缺乏温度与共情。"
+    },
+    {
+      "id": "sword-king", "name": "宝剑国王", "name_en": "King of Swords", "aliases": ["宝剑君王"], "number": 14, "arcana": "minor", "suit": "宝剑", "element": "风",
+      "keywords_upright": ["公正", "理智", "权威", "清晰判断", "客观"],
+      "keywords_reversed": ["冷酷", "专制", "滥用权威", "缺乏人情"],
+      "meaning_upright": "宝剑国王象征公正与理智。他以清晰的逻辑与客观的判断行使权威，代表理性、公正与原则。",
+      "meaning_reversed": "权威走向冷酷与专制，缺乏人情味与弹性。"
+    },
+    {
+      "id": "pentacle-01", "name": "星币王牌", "name_en": "Ace of Pentacles", "aliases": ["星币一", "星币1", "金币王牌"], "number": 1, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["新的机会", "财富", "务实", "稳定的开端", "物质基础"],
+      "keywords_reversed": ["错失机会", "财务问题", "不稳的开端", "短视"],
+      "meaning_upright": "星币王牌象征新的机会与物质的开端。一枚星币被手托起，代表财富、务实的机遇与稳固基础的建立。",
+      "meaning_reversed": "机会错失、财务不稳，或开端缺乏稳固的基础。"
+    },
+    {
+      "id": "pentacle-02", "name": "星币二", "name_en": "Two of Pentacles", "aliases": ["星币2"], "number": 2, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["平衡", "多任务", "灵活", "权衡", "适应"],
+      "keywords_reversed": ["失衡", "顾此失彼", "不堪重负", "失去掌控"],
+      "meaning_upright": "星币二象征平衡与多任务。灵活地抛接两枚星币，代表在多重事务中保持平衡与适应。",
+      "meaning_reversed": "事务失衡、顾此失彼，因负担过重而失去掌控。"
+    },
+    {
+      "id": "pentacle-03", "name": "星币三", "name_en": "Three of Pentacles", "aliases": ["星币3"], "number": 3, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["协作", "技艺", "认可", "建设", "团队"],
+      "keywords_reversed": ["缺乏协作", "质量下降", "不被认可", "各自为政"],
+      "meaning_upright": "星币三象征协作与技艺。工匠各司其职共建教堂，代表团队协作、专业技艺与获得认可。",
+      "meaning_reversed": "协作不力、质量下降，或成果不被认可。"
+    },
+    {
+      "id": "pentacle-04", "name": "星币四", "name_en": "Four of Pentacles", "aliases": ["星币4"], "number": 4, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["守财", "保守", "掌控", "安全感", "紧抓不放"],
+      "keywords_reversed": ["放手", "过度占有", "贪婪", "释放"],
+      "meaning_upright": "星币四象征守财与保守。紧抱星币不放，代表对资源与安全感的执着掌控，但也可能过于保守。",
+      "meaning_reversed": "放下执着、释放占有，或从贪婪中解脱。"
+    },
+    {
+      "id": "pentacle-05", "name": "星币五", "name_en": "Five of Pentacles", "aliases": ["星币5"], "number": 5, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["匮乏", "困境", "孤独", "经济压力", "被忽视"],
+      "keywords_reversed": ["走出困境", "转机", "获得帮助", "重建"],
+      "meaning_upright": "星币五象征匮乏与困境。风雪中的两人忽视了身后教堂的温暖，代表物质或精神上的匮乏与孤立。",
+      "meaning_reversed": "困境出现转机，接受帮助、走出匮乏。"
+    },
+    {
+      "id": "pentacle-06", "name": "星币六", "name_en": "Six of Pentacles", "aliases": ["星币6"], "number": 6, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["给予", "接受", "慷慨", "平衡的施受", "互助"],
+      "keywords_reversed": ["失衡的施受", "施舍", "亏欠", "依赖"],
+      "meaning_upright": "星币六象征给予与接受的平衡。施者与受者，代表慷慨、互助与资源的公平流动。",
+      "meaning_reversed": "施受失衡，可能是施舍式的给予或过度的依赖。"
+    },
+    {
+      "id": "pentacle-07", "name": "星币七", "name_en": "Seven of Pentacles", "aliases": ["星币7"], "number": 7, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["耐心", "等待收获", "评估", "耕耘", "坚持"],
+      "keywords_reversed": ["缺乏耐心", "回报延迟", "投入错位", "放弃"],
+      "meaning_upright": "星币七象征耐心与等待收获。驻足审视成长的庄稼，代表长期的耕耘需要耐心等待回报。",
+      "meaning_reversed": "耐心耗尽、回报延迟，或投入与回报不匹配。"
+    },
+    {
+      "id": "pentacle-08", "name": "星币八", "name_en": "Eight of Pentacles", "aliases": ["星币8"], "number": 8, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["精进", "专注", "技艺", "勤奋", "精益求精"],
+      "keywords_reversed": ["敷衍", "缺乏专注", "质量下降", "倦怠"],
+      "meaning_upright": "星币八象征精进与专注。工匠专注雕琢星币，代表勤勉钻研、精益求精的技艺与投入。",
+      "meaning_reversed": "敷衍了事、缺乏专注，或陷入倦怠。"
+    },
+    {
+      "id": "pentacle-09", "name": "星币九", "name_en": "Nine of Pentacles", "aliases": ["星币9"], "number": 9, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["独立", "富足", "自律", "享受成果", "优雅"],
+      "keywords_reversed": ["依赖", "财务问题", "不安全感", "过度工作"],
+      "meaning_upright": "星币九象征独立与富足。在花园中享受自己的成果，代表通过自律获得独立与物质上的富足。",
+      "meaning_reversed": "过度依赖、财务不稳，或因过度工作而缺乏安全感。"
+    },
+    {
+      "id": "pentacle-10", "name": "星币十", "name_en": "Ten of Pentacles", "aliases": ["星币10"], "number": 10, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["家族", "传承", "富足", "稳固", "长久"],
+      "keywords_reversed": ["家族矛盾", "财务危机", "传承断裂", "不稳"],
+      "meaning_upright": "星币十象征家族与传承。跨越世代的家园，代表长久的富足、家族的稳固与传承。",
+      "meaning_reversed": "家族矛盾、财务危机，或传承与根基的动摇。"
+    },
+    {
+      "id": "pentacle-page", "name": "星币侍从", "name_en": "Page of Pentacles", "aliases": ["星币侍者"], "number": 11, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["学习", "务实", "新的机会", "专注", "脚踏实地"],
+      "keywords_reversed": ["拖延", "缺乏专注", "不切实际", "错失机会"],
+      "meaning_upright": "星币侍从象征学习与务实。专注地研究手中的星币，代表踏实学习、把握新机会的务实精神。",
+      "meaning_reversed": "拖延、缺乏专注，或空想而不切实际。"
+    },
+    {
+      "id": "pentacle-knight", "name": "星币骑士", "name_en": "Knight of Pentacles", "aliases": ["星币骑士"], "number": 12, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["可靠", "勤勉", "稳健", "务实", "耐心"],
+      "keywords_reversed": ["停滞", "顽固", "保守", "缺乏进取"],
+      "meaning_upright": "星币骑士象征可靠与勤勉。稳步前行，代表踏实、稳健、持之以恒的务实精神。",
+      "meaning_reversed": "停滞不前、顽固保守，缺乏进取与变通。"
+    },
+    {
+      "id": "pentacle-queen", "name": "星币皇后", "name_en": "Queen of Pentacles", "aliases": ["星币女王"], "number": 13, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["务实", "滋养", "富足", "顾家", "安全感"],
+      "keywords_reversed": ["忽视自我", "物质焦虑", "过度付出", "缺乏安全感"],
+      "meaning_upright": "星币皇后象征务实与滋养。她善于经营家庭与生活，代表富足、顾家、务实的母性能量。",
+      "meaning_reversed": "忽视自我需求、物质焦虑，或过度付出而失去平衡。"
+    },
+    {
+      "id": "pentacle-king", "name": "星币国王", "name_en": "King of Pentacles", "aliases": ["星币君王"], "number": 14, "arcana": "minor", "suit": "星币", "element": "土",
+      "keywords_upright": ["富足", "稳健", "务实", "成功", "经营有道"],
+      "keywords_reversed": ["贪婪", "固执", "物质至上", "挥霍"],
+      "meaning_upright": "星币国王象征富足与稳健。他善于经营与积累，代表务实、成功的物质成就与稳固的根基。",
+      "meaning_reversed": "贪婪、固执、物质至上，或走向挥霍的另一极端。"
+    }
+  ]
+}

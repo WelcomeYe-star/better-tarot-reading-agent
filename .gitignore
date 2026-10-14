@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 临时与调试文件
+_*.txt
+_*.py
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
