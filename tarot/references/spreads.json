@@ -1,4 +1,8 @@
 {
+  "_meta": {
+    "version": "2.0.0",
+    "note": "positions[].element 为该位置自带的元素属性，用于位置-元素交互分析；variants 为同一张牌数下的不同切分方式"
+  },
   "spreads": [
     {
       "id": "single",
@@ -8,7 +12,7 @@
       "suitable_for": ["日常指引", "快速问题", "今日运势", "简单的是非/趋势"],
       "complexity": "低",
       "positions": [
-        { "index": 1, "name": "核心能量", "meaning": "贯穿整个问题当下的核心能量与提示" }
+        { "index": 1, "name": "核心能量", "meaning": "贯穿整个问题当下的核心能量与提示", "element": null }
       ]
     },
     {
@@ -16,12 +20,44 @@
       "name": "三牌阵",
       "name_en": "Three Card",
       "cards": 3,
-      "suitable_for": ["趋势类问题", "过去-现在-未来", "身-心-灵", "一般决策"],
+      "suitable_for": ["趋势类问题", "过去-现在-未来", "身-心-灵", "情况-行动-结果", "一般决策"],
       "complexity": "中",
       "positions": [
-        { "index": 1, "name": "过去", "meaning": "问题的根源与已发生的影响" },
-        { "index": 2, "name": "现在", "meaning": "当下的核心状态与能量" },
-        { "index": 3, "name": "未来", "meaning": "趋势走向与可能的发展" }
+        { "index": 1, "name": "过去", "meaning": "问题的根源与已发生的影响", "element": null },
+        { "index": 2, "name": "现在", "meaning": "当下的核心状态与能量", "element": null },
+        { "index": 3, "name": "未来", "meaning": "趋势走向与可能的发展", "element": null }
+      ],
+      "variants": [
+        {
+          "id": "timeline",
+          "name": "过去-现在-未来",
+          "use_when": "问趋势、问一件事怎么走到今天、想看清发展脉络",
+          "positions": [
+            { "index": 1, "name": "过去", "meaning": "问题的根源与已发生的影响", "element": null },
+            { "index": 2, "name": "现在", "meaning": "当下的核心状态与能量", "element": null },
+            { "index": 3, "name": "未来", "meaning": "趋势走向与可能的发展", "element": null }
+          ]
+        },
+        {
+          "id": "body-mind-spirit",
+          "name": "身-心-灵",
+          "use_when": "问自身状态、疲惫感、身心失衡、说不清哪里不对",
+          "positions": [
+            { "index": 1, "name": "身", "meaning": "身体与现实处境正在经历什么", "element": "土" },
+            { "index": 2, "name": "心", "meaning": "情绪与想法层面的真实状态", "element": "水" },
+            { "index": 3, "name": "灵", "meaning": "更深一层的意义感与方向", "element": "火" }
+          ]
+        },
+        {
+          "id": "situation-action-outcome",
+          "name": "情况-行动-结果",
+          "use_when": "问决策、问要不要做某事、想看清一件事的可行路径",
+          "positions": [
+            { "index": 1, "name": "情况", "meaning": "你实际面对的局面", "element": null },
+            { "index": 2, "name": "行动", "meaning": "可以着力的那个点", "element": "火" },
+            { "index": 3, "name": "结果", "meaning": "顺着这个方向走下去会呈现的样子", "element": null }
+          ]
+        }
       ]
     },
     {
@@ -32,10 +68,10 @@
       "suitable_for": ["全面审视某个问题", "多维度分析", "身心状态"],
       "complexity": "中",
       "positions": [
-        { "index": 1, "name": "火（行动/意志）", "meaning": "行动力、欲望、驱动力层面" },
-        { "index": 2, "name": "水（情感/直觉）", "meaning": "情感、关系、直觉层面" },
-        { "index": 3, "name": "风（思维/沟通）", "meaning": "思想、判断、沟通层面" },
-        { "index": 4, "name": "土（现实/物质）", "meaning": "现实、物质、根基层面" }
+        { "index": 1, "name": "火（行动/意志）", "meaning": "行动力、欲望、驱动力层面", "element": "火" },
+        { "index": 2, "name": "水（情感/直觉）", "meaning": "情感、关系、直觉层面", "element": "水" },
+        { "index": 3, "name": "风（思维/沟通）", "meaning": "思想、判断、沟通层面", "element": "风" },
+        { "index": 4, "name": "土（现实/物质）", "meaning": "现实、物质、根基层面", "element": "土" }
       ]
     },
     {
@@ -46,11 +82,11 @@
       "suitable_for": ["感情问题", "人际关系", "亲密关系"],
       "complexity": "中",
       "positions": [
-        { "index": 1, "name": "你", "meaning": "你在这段关系中的状态与感受" },
-        { "index": 2, "name": "对方", "meaning": "对方的感受与立场" },
-        { "index": 3, "name": "关系的本质", "meaning": "这段关系的核心动力与现状" },
-        { "index": 4, "name": "挑战", "meaning": "关系面临的障碍与考验" },
-        { "index": 5, "name": "趋势/建议", "meaning": "关系的发展趋势与潜在方向" }
+        { "index": 1, "name": "你", "meaning": "你在这段关系中的状态与感受", "element": null },
+        { "index": 2, "name": "你感受到的张力", "meaning": "关系里让你拉扯、未被满足的部分（只谈你的感受，不推断对方心思）", "element": null },
+        { "index": 3, "name": "关系的本质", "meaning": "这段关系真正的核心动力与现状", "element": null },
+        { "index": 4, "name": "你带着什么进来", "meaning": "你从过往带来的模式与预设", "element": null },
+        { "index": 5, "name": "趋势", "meaning": "顺着当下能量，关系可能的走向", "element": null }
       ]
     },
     {
@@ -61,13 +97,13 @@
       "suitable_for": ["较复杂的问题", "深入剖析", "多因素问题"],
       "complexity": "中高",
       "positions": [
-        { "index": 1, "name": "过去", "meaning": "问题的历史背景与根源" },
-        { "index": 2, "name": "现在", "meaning": "当下的核心状态" },
-        { "index": 3, "name": "隐藏影响", "meaning": "未察觉或潜藏的因素" },
-        { "index": 4, "name": "障碍", "meaning": "面临的阻碍与挑战" },
-        { "index": 5, "name": "外界环境", "meaning": "他人的态度与外部环境" },
-        { "index": 6, "name": "建议", "meaning": "应对的行动方向" },
-        { "index": 7, "name": "最终结果", "meaning": "可能的走向与结局" }
+        { "index": 1, "name": "过去", "meaning": "问题的历史背景与根源", "element": null },
+        { "index": 2, "name": "现在", "meaning": "当下的核心状态", "element": null },
+        { "index": 3, "name": "隐藏影响", "meaning": "未察觉或潜藏的因素", "element": null },
+        { "index": 4, "name": "障碍", "meaning": "面临的阻碍与挑战", "element": null },
+        { "index": 5, "name": "外界环境", "meaning": "他人的态度与外部环境", "element": null },
+        { "index": 6, "name": "建议", "meaning": "应对的行动方向", "element": null },
+        { "index": 7, "name": "最终结果", "meaning": "可能的走向与结局", "element": null }
       ]
     },
     {
@@ -78,16 +114,16 @@
       "suitable_for": ["深度剖析", "重大决策", "复杂人生议题"],
       "complexity": "高",
       "positions": [
-        { "index": 1, "name": "现状", "meaning": "当前局面的核心" },
-        { "index": 2, "name": "挑战", "meaning": "横亘在前的主要障碍或助力" },
-        { "index": 3, "name": "根源", "meaning": "问题的深层根源与潜意识" },
-        { "index": 4, "name": "过去", "meaning": "正在退去的过去影响" },
-        { "index": 5, "name": "意识目标", "meaning": "你意识层面的目标与期望" },
-        { "index": 6, "name": "未来", "meaning": "即将到来的近期影响" },
-        { "index": 7, "name": "自我", "meaning": "你当下的状态与定位" },
-        { "index": 8, "name": "环境", "meaning": "外界的看法与环境因素" },
-        { "index": 9, "name": "希望与恐惧", "meaning": "内心的期待与担忧" },
-        { "index": 10, "name": "最终结果", "meaning": "综合趋势与最终走向" }
+        { "index": 1, "name": "现状", "meaning": "当前局面的核心", "element": null },
+        { "index": 2, "name": "挑战", "meaning": "横亘在前的主要障碍或助力", "element": null },
+        { "index": 3, "name": "根源", "meaning": "问题的深层根源与潜意识", "element": null },
+        { "index": 4, "name": "过去", "meaning": "正在退去的过去影响", "element": null },
+        { "index": 5, "name": "意识目标", "meaning": "你意识层面的目标与期望", "element": null },
+        { "index": 6, "name": "未来", "meaning": "即将到来的近期影响", "element": null },
+        { "index": 7, "name": "自我", "meaning": "你当下的状态与定位", "element": null },
+        { "index": 8, "name": "环境", "meaning": "外界的看法与环境因素", "element": null },
+        { "index": 9, "name": "希望与恐惧", "meaning": "内心的期待与担忧", "element": null },
+        { "index": 10, "name": "最终结果", "meaning": "综合趋势与最终走向", "element": null }
       ]
     }
   ]

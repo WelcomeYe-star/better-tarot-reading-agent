@@ -1,379 +1,952 @@
 {
   "deck": "Rider-Waite Smith",
+  "_meta": {
+    "version": "2.1.0",
+    "astrology_system": "Golden Dawn",
+    "note": "大阿卡纳为星座或行星对应；numerology 为原型序列与源头质层的双重含义"
+  },
   "major_arcana": [
     {
       "id": "major-00",
       "name": "愚者",
       "name_en": "The Fool",
-      "aliases": ["愚人", "0号牌", "零号"],
+      "aliases": [
+        "愚人",
+        "0号牌",
+        "零号"
+      ],
       "number": 0,
       "arcana": "major",
       "suit": null,
       "element": "风",
       "astrology": "天王星",
       "numerology": "0（无限可能、起点、纯净）",
-      "keywords_upright": ["新的开始", "纯真", "冒险", "自由", "自发", "信任"],
-      "keywords_reversed": ["鲁莽", "轻率", "犹豫", "停滞", "缺乏规划"],
+      "keywords_upright": [
+        "新的开始",
+        "纯真",
+        "冒险",
+        "自由",
+        "自发",
+        "信任"
+      ],
+      "keywords_reversed": [
+        "鲁莽",
+        "轻率",
+        "犹豫",
+        "停滞",
+        "缺乏规划"
+      ],
       "meaning_upright": "代表新的旅程与无限可能。愚者站在悬崖边，带着纯真与信任迈出第一步，象征开放的心态、自由的精神与对未知的拥抱。它提示一次全新的开始，或需要以初学者心态面对的局面。",
       "meaning_reversed": "新的开始被推迟或缺乏准备。可能是因害怕未知而停滞，或走向另一个极端——过度鲁莽、不计后果。提示需要停下来审视风险，而非盲目冲动。",
-      "symbols": ["白玫瑰（纯真）", "悬崖（未知）", "小狗（本能/警示）", "小包袱（经验）", "太阳（生命力）"]
+      "symbols": [
+        "白玫瑰（纯真）",
+        "悬崖（未知）",
+        "小狗（本能/警示）",
+        "小包袱（经验）",
+        "太阳（生命力）"
+      ],
+      "reversal_profile": {
+        "primary": "blocked",
+        "secondary": "excessive",
+        "hint": "愚者逆位常在两端：一种是不敢迈，一种是闭着眼就迈"
+      }
     },
     {
       "id": "major-01",
       "name": "魔术师",
       "name_en": "The Magician",
-      "aliases": ["魔法师", "1号牌"],
+      "aliases": [
+        "魔法师",
+        "1号牌"
+      ],
       "number": 1,
       "arcana": "major",
       "suit": null,
       "element": "风",
       "astrology": "水星",
       "numerology": "1（开创、意志、自我）",
-      "keywords_upright": ["创造力", "行动力", "意志", "资源整合", "显化"],
-      "keywords_reversed": ["操纵", "欺骗", "才华浪费", "空谈", "缺乏行动"],
+      "keywords_upright": [
+        "创造力",
+        "行动力",
+        "意志",
+        "资源整合",
+        "显化"
+      ],
+      "keywords_reversed": [
+        "操纵",
+        "欺骗",
+        "才华浪费",
+        "空谈",
+        "缺乏行动"
+      ],
       "meaning_upright": "魔术师指向天地之间，寓意将想法化为现实的能力。他面前有圣杯、宝剑、权杖、星币四要素，代表万事俱备。象征强大的意志力、创造力与把资源整合成成果的行动力。",
       "meaning_reversed": "能力被误用或才华未能施展。可能是空有想法而无行动，或以操纵、欺骗的方式达成目的。提示审视动机，警惕华而不实。",
-      "symbols": ["无限符号（无限潜能）", "四元素法器", "白百合与红玫瑰", "指天指地（连通天地）"]
+      "symbols": [
+        "无限符号（无限潜能）",
+        "四元素法器",
+        "白百合与红玫瑰",
+        "指天指地（连通天地）"
+      ],
+      "reversal_profile": {
+        "primary": "blocked",
+        "secondary": "excessive",
+        "hint": "魔术师逆位多半不是没能力，而是能力卡在「变不出来」这一步"
+      }
     },
     {
       "id": "major-02",
       "name": "女祭司",
       "name_en": "The High Priestess",
-      "aliases": ["女教皇", "女祭司长", "2号牌"],
+      "aliases": [
+        "女教皇",
+        "女祭司长",
+        "2号牌"
+      ],
       "number": 2,
       "arcana": "major",
       "suit": null,
       "element": "水",
       "astrology": "月亮",
       "numerology": "2（二元、直觉、平衡）",
-      "keywords_upright": ["直觉", "潜意识", "内在智慧", "静默", "神秘"],
-      "keywords_reversed": ["忽视直觉", "隐藏真相", "情绪压抑", "表面化"],
+      "keywords_upright": [
+        "直觉",
+        "潜意识",
+        "内在智慧",
+        "静默",
+        "神秘"
+      ],
+      "keywords_reversed": [
+        "忽视直觉",
+        "隐藏真相",
+        "情绪压抑",
+        "表面化"
+      ],
       "meaning_upright": "女祭司端坐于两根柱子之间，象征潜意识与直觉的领域。她提示答案不在外界，而在内心。是倾听内在声音、静待时机、依靠直觉而非逻辑的时刻。",
       "meaning_reversed": "与内在智慧失联。可能忽视了自己的直觉，或被隐藏的信息、未被言明的情绪所困扰。提示有些真相尚未浮出水面。",
-      "symbols": ["B与J双柱（二元对立）", "月亮（潜意识）", "TORA卷轴（隐藏知识）", "石榴帷幕（神秘）"]
+      "symbols": [
+        "B与J双柱（二元对立）",
+        "月亮（潜意识）",
+        "TORA卷轴（隐藏知识）",
+        "石榴帷幕（神秘）"
+      ],
+      "reversal_profile": {
+        "primary": "weakened",
+        "secondary": "internalized",
+        "hint": "女祭司逆位常是「知道但不敢信」——直觉还在，被自己盖住了"
+      }
     },
     {
       "id": "major-03",
       "name": "皇后",
       "name_en": "The Empress",
-      "aliases": ["女皇", "3号牌"],
+      "aliases": [
+        "女皇",
+        "3号牌"
+      ],
       "number": 3,
       "arcana": "major",
       "suit": null,
       "element": "土",
       "astrology": "金星",
       "numerology": "3（生长、创造、丰饶）",
-      "keywords_upright": ["丰饶", "母性", "滋养", "感官", "创造力", "富足"],
-      "keywords_reversed": ["依赖", "过度保护", "创造力受阻", "忽视自我"],
+      "keywords_upright": [
+        "丰饶",
+        "母性",
+        "滋养",
+        "感官",
+        "创造力",
+        "富足"
+      ],
+      "keywords_reversed": [
+        "依赖",
+        "过度保护",
+        "创造力受阻",
+        "忽视自我"
+      ],
       "meaning_upright": "皇后代表丰饶、滋养与创造力的成熟形态。她孕育万物，象征感官享受、母性关怀、艺术创造与物质富足。是一段生长、开花、被滋养的时期。",
       "meaning_reversed": "滋养的能量失衡。可能是过度付出而忽视自己，或创造力受阻、依赖他人。提示需要重新照顾自己、找回内在的创造力。",
-      "symbols": ["麦田（丰饶）", "金星符号（爱与美）", "石榴（多产）", "森林与河流（自然）"]
+      "symbols": [
+        "麦田（丰饶）",
+        "金星符号（爱与美）",
+        "石榴（多产）",
+        "森林与河流（自然）"
+      ],
+      "reversal_profile": {
+        "primary": "excessive",
+        "secondary": "weakened",
+        "hint": "皇后逆位很典型：给出去的太多，留给自己的太少"
+      }
     },
     {
       "id": "major-04",
       "name": "皇帝",
       "name_en": "The Emperor",
-      "aliases": ["4号牌", "君王"],
+      "aliases": [
+        "4号牌",
+        "君王"
+      ],
       "number": 4,
       "arcana": "major",
       "suit": null,
       "element": "火",
       "astrology": "白羊座",
       "numerology": "4（秩序、结构、稳定）",
-      "keywords_upright": ["权威", "结构", "秩序", "纪律", "稳定", "领导力"],
-      "keywords_reversed": ["专横", "控制欲", "僵化", "缺乏纪律", "软弱"],
+      "keywords_upright": [
+        "权威",
+        "结构",
+        "秩序",
+        "纪律",
+        "稳定",
+        "领导力"
+      ],
+      "keywords_reversed": [
+        "专横",
+        "控制欲",
+        "僵化",
+        "缺乏纪律",
+        "软弱"
+      ],
       "meaning_upright": "皇帝象征秩序、结构与权威。他建立规则与边界，代表以纪律和理性掌控局面的能力，是稳固、领导力与责任的体现。",
       "meaning_reversed": "权威走向反面。可能是过度控制、专横独断，或相反——缺乏自律、结构崩塌。提示需要重新界定权力的边界。",
-      "symbols": ["王座（权威）", "公羊头（白羊座）", "红袍（行动）", "权杖与宝珠（统治）"]
+      "symbols": [
+        "王座（权威）",
+        "公羊头（白羊座）",
+        "红袍（行动）",
+        "权杖与宝珠（统治）"
+      ],
+      "reversal_profile": {
+        "primary": "excessive",
+        "secondary": "weakened",
+        "hint": "皇帝逆位通常是秩序出了问题——要么管得太死，要么根本没人管"
+      }
     },
     {
       "id": "major-05",
       "name": "教皇",
       "name_en": "The Hierophant",
-      "aliases": ["祭司", "大祭司", "5号牌"],
+      "aliases": [
+        "祭司",
+        "大祭司",
+        "5号牌"
+      ],
       "number": 5,
       "arcana": "major",
       "suit": null,
       "element": "土",
       "astrology": "金牛座",
       "numerology": "5（变化、挑战、调整）",
-      "keywords_upright": ["传统", "信仰", "导师", "制度", "精神指引", "规范"],
-      "keywords_reversed": ["反叛", "突破传统", "质疑权威", "教条"],
+      "keywords_upright": [
+        "传统",
+        "信仰",
+        "导师",
+        "制度",
+        "精神指引",
+        "规范"
+      ],
+      "keywords_reversed": [
+        "反叛",
+        "突破传统",
+        "质疑权威",
+        "教条"
+      ],
       "meaning_upright": "教皇代表传统、信仰体系与精神导师。他传递既有的智慧与规范，象征学习、教义、制度化的价值观，以及寻求指引。",
       "meaning_reversed": "对传统与权威的质疑或反叛。可能是不愿被教条束缚，寻求自己的道路，或是对既有规则的挑战。",
-      "symbols": ["三重冠（三层智慧）", "双钥匙（教义）", "两位门徒", "交叉钥匙（天地之钥）"]
+      "symbols": [
+        "三重冠（三层智慧）",
+        "双钥匙（教义）",
+        "两位门徒",
+        "交叉钥匙（天地之钥）"
+      ],
+      "reversal_profile": {
+        "primary": "internalized",
+        "secondary": "blocked",
+        "hint": "教皇逆位常见的是「表面遵守，心里早就不认了」"
+      }
     },
     {
       "id": "major-06",
       "name": "恋人",
       "name_en": "The Lovers",
-      "aliases": ["情侣", "6号牌"],
+      "aliases": [
+        "情侣",
+        "6号牌"
+      ],
       "number": 6,
       "arcana": "major",
       "suit": null,
       "element": "风",
       "astrology": "双子座",
       "numerology": "6（和谐、选择、爱）",
-      "keywords_upright": ["爱", "结合", "和谐", "选择", "价值观", "关系"],
-      "keywords_reversed": ["失衡", "犹豫", "价值观冲突", "分离", "错误的结合"],
+      "keywords_upright": [
+        "爱",
+        "结合",
+        "和谐",
+        "选择",
+        "价值观",
+        "关系"
+      ],
+      "keywords_reversed": [
+        "失衡",
+        "犹豫",
+        "价值观冲突",
+        "分离",
+        "错误的结合"
+      ],
       "meaning_upright": "恋人象征爱、结合与和谐，但更深层的是「选择」——在价值观层面做出的抉择。代表亲密关系、心灵契合，以及忠于内心的重要选择。",
       "meaning_reversed": "关系失衡或选择困难。可能是价值观冲突、犹豫不决，或一段不和谐的结合。提示需要厘清自己真正看重什么。",
-      "symbols": ["天使（祝福）", "亚当与夏娃", "生命树与知识树", "蛇（诱惑）", "太阳（真理）"]
+      "symbols": [
+        "天使（祝福）",
+        "亚当与夏娃",
+        "生命树与知识树",
+        "蛇（诱惑）",
+        "太阳（真理）"
+      ],
+      "reversal_profile": {
+        "primary": "internalized",
+        "secondary": "weakened",
+        "hint": "恋人逆位常卡在「想要的和你选的不一致」，而不是「没有人爱你」"
+      }
     },
     {
       "id": "major-07",
       "name": "战车",
       "name_en": "The Chariot",
-      "aliases": ["战车", "7号牌"],
+      "aliases": [
+        "战车",
+        "7号牌"
+      ],
       "number": 7,
       "arcana": "major",
       "suit": null,
       "element": "水",
       "astrology": "巨蟹座",
       "numerology": "7（胜利、意志、克服）",
-      "keywords_upright": ["胜利", "意志力", "掌控", "前进", "决心", "自律"],
-      "keywords_reversed": ["失控", "方向迷失", "意志力涣散", "受阻"],
+      "keywords_upright": [
+        "胜利",
+        "意志力",
+        "掌控",
+        "前进",
+        "决心",
+        "自律"
+      ],
+      "keywords_reversed": [
+        "失控",
+        "方向迷失",
+        "意志力涣散",
+        "受阻"
+      ],
       "meaning_upright": "战车代表以坚定意志驾驭对立力量而获胜。黑白双狮象征被驯服的矛盾力量。是凭借决心、自律与专注克服障碍、向目标推进的时刻。",
       "meaning_reversed": "意志力涣散或方向迷失。可能是内外矛盾失控，或目标不够清晰。提示需要重新聚焦、找回掌控。",
-      "symbols": ["黑白双狮（对立力量）", "星星华盖", "铠甲（防御）", "王冠（胜利）"]
+      "symbols": [
+        "黑白双狮（对立力量）",
+        "星星华盖",
+        "铠甲（防御）",
+        "王冠（胜利）"
+      ],
+      "reversal_profile": {
+        "primary": "blocked",
+        "secondary": "excessive",
+        "hint": "战车逆位多半是缰绳松了——方向还在，力气散了"
+      }
     },
     {
       "id": "major-08",
       "name": "力量",
       "name_en": "Strength",
-      "aliases": ["力量", "毅力", "狮子牌", "8号牌"],
+      "aliases": [
+        "力量",
+        "毅力",
+        "狮子牌",
+        "8号牌"
+      ],
       "number": 8,
       "arcana": "major",
       "suit": null,
       "element": "火",
       "astrology": "狮子座",
       "numerology": "8（力量、耐力、成就）",
-      "keywords_upright": ["内在力量", "勇气", "耐心", "温柔的力量", "自我掌控"],
-      "keywords_reversed": ["自我怀疑", "软弱", "冲动", "缺乏自信"],
+      "keywords_upright": [
+        "内在力量",
+        "勇气",
+        "耐心",
+        "温柔的力量",
+        "自我掌控"
+      ],
+      "keywords_reversed": [
+        "自我怀疑",
+        "软弱",
+        "冲动",
+        "缺乏自信"
+      ],
       "meaning_upright": "力量描绘一位女子温柔地驯服狮子，象征以柔克刚的内在力量。真正的力量不是蛮力，而是勇气、耐心与自我掌控。",
       "meaning_reversed": "内在力量的流失。可能是自我怀疑、缺乏信心，或因恐惧而退缩。提示需要找回内心的勇气与耐心。",
-      "symbols": ["狮子（本能）", "女子（温柔的力量）", "无限符号", "白袍（纯净）"]
+      "symbols": [
+        "狮子（本能）",
+        "女子（温柔的力量）",
+        "无限符号",
+        "白袍（纯净）"
+      ],
+      "reversal_profile": {
+        "primary": "weakened",
+        "secondary": "internalized",
+        "hint": "力量逆位不是没力气，是力气都用在了「不让自己崩」上"
+      }
     },
     {
       "id": "major-09",
       "name": "隐士",
       "name_en": "The Hermit",
-      "aliases": ["隐者", "9号牌"],
+      "aliases": [
+        "隐者",
+        "9号牌"
+      ],
       "number": 9,
       "arcana": "major",
       "suit": null,
       "element": "土",
       "astrology": "处女座",
       "numerology": "9（完成、智慧、内省）",
-      "keywords_upright": ["内省", "独处", "寻求真理", "智慧", "指引", "沉思"],
-      "keywords_reversed": ["孤立", "逃避", "拒绝指引", "迷失"],
+      "keywords_upright": [
+        "内省",
+        "独处",
+        "寻求真理",
+        "智慧",
+        "指引",
+        "沉思"
+      ],
+      "keywords_reversed": [
+        "孤立",
+        "逃避",
+        "拒绝指引",
+        "迷失"
+      ],
       "meaning_upright": "隐士手提明灯，在孤独中寻求内在真理。象征内省、独处与精神探索，是退后一步、寻找答案与自我指引的时期。",
       "meaning_reversed": "孤独走向极端。可能是过度孤立、拒绝他人帮助，或以独处逃避现实。提示需要在独处与联结之间找平衡。",
-      "symbols": ["提灯（智慧之光）", "权杖（支撑）", "雪山（孤独）", "灰袍（低调）"]
+      "symbols": [
+        "提灯（智慧之光）",
+        "权杖（支撑）",
+        "雪山（孤独）",
+        "灰袍（低调）"
+      ],
+      "reversal_profile": {
+        "primary": "internalized",
+        "secondary": "blocked",
+        "hint": "隐者逆位常是躲得太深，或者想躲却躲不了"
+      }
     },
     {
       "id": "major-10",
       "name": "命运之轮",
       "name_en": "Wheel of Fortune",
-      "aliases": ["命运轮", "10号牌", "转轮"],
+      "aliases": [
+        "命运轮",
+        "10号牌",
+        "转轮"
+      ],
       "number": 10,
       "arcana": "major",
       "suit": null,
       "element": "火",
       "astrology": "木星",
       "numerology": "10（完成与再启、循环）",
-      "keywords_upright": ["转机", "命运", "循环", "机遇", "转折点", "时来运转"],
-      "keywords_reversed": ["停滞", "坏运气", "抗拒改变", "失控"],
+      "keywords_upright": [
+        "转机",
+        "命运",
+        "循环",
+        "机遇",
+        "转折点",
+        "时来运转"
+      ],
+      "keywords_reversed": [
+        "停滞",
+        "坏运气",
+        "抗拒改变",
+        "失控"
+      ],
       "meaning_upright": "命运之轮象征生命的循环与命运的转折。轮子转动，带来新的机遇与改变。是顺应时势、抓住转机的时刻。",
       "meaning_reversed": "命运的循环暂时停滞，或抗拒必要的改变。可能是感到运气不佳，或害怕变化而固守。",
-      "symbols": ["轮盘（循环）", "四圣兽（四季/四元素）", "斯芬克斯", "蛇（智慧与黑暗）"]
+      "symbols": [
+        "轮盘（循环）",
+        "四圣兽（四季/四元素）",
+        "斯芬克斯",
+        "蛇（智慧与黑暗）"
+      ],
+      "reversal_profile": {
+        "primary": "blocked",
+        "secondary": "weakened",
+        "hint": "命运之轮逆位最像「同一个坑又踩了一次」"
+      }
     },
     {
       "id": "major-11",
       "name": "正义",
       "name_en": "Justice",
-      "aliases": ["公正", "11号牌", "天平"],
+      "aliases": [
+        "公正",
+        "11号牌",
+        "天平"
+      ],
       "number": 11,
       "arcana": "major",
       "suit": null,
       "element": "风",
       "astrology": "天秤座",
       "numerology": "11（平衡、因果、公正）",
-      "keywords_upright": ["公正", "平衡", "因果", "真相", "责任", "法律"],
-      "keywords_reversed": ["不公", "失衡", "逃避责任", "偏见"],
+      "keywords_upright": [
+        "公正",
+        "平衡",
+        "因果",
+        "真相",
+        "责任",
+        "法律"
+      ],
+      "keywords_reversed": [
+        "不公",
+        "失衡",
+        "逃避责任",
+        "偏见"
+      ],
       "meaning_upright": "正义手持天平与宝剑，象征因果法则与公正。种什么因得什么果，是做出公正判断、承担责任的时刻。",
       "meaning_reversed": "公正被扭曲。可能是遭遇不公、逃避责任，或因偏见而失衡。提示需要诚实地面对因果。",
-      "symbols": ["天平（公正）", "宝剑（决断）", "红袍（行动）", "王冠（权威）"]
+      "symbols": [
+        "天平（公正）",
+        "宝剑（决断）",
+        "红袍（行动）",
+        "王冠（权威）"
+      ],
+      "reversal_profile": {
+        "primary": "internalized",
+        "secondary": "blocked",
+        "hint": "正义逆位常是那把天平转回了自己身上，成了自我审判"
+      }
     },
     {
       "id": "major-12",
       "name": "倒吊人",
       "name_en": "The Hanged Man",
-      "aliases": ["吊人", "12号牌", "牺牲"],
+      "aliases": [
+        "吊人",
+        "12号牌",
+        "牺牲"
+      ],
       "number": 12,
       "arcana": "major",
       "suit": null,
       "element": "水",
       "astrology": "海王星",
       "numerology": "12（牺牲、视角转换、等待）",
-      "keywords_upright": ["放下", "换个视角", "牺牲", "等待", "臣服", "顿悟"],
-      "keywords_reversed": ["抗拒", "无谓牺牲", "拖延", "困顿"],
+      "keywords_upright": [
+        "放下",
+        "换个视角",
+        "牺牲",
+        "等待",
+        "臣服",
+        "顿悟"
+      ],
+      "keywords_reversed": [
+        "抗拒",
+        "无谓牺牲",
+        "拖延",
+        "困顿"
+      ],
       "meaning_upright": "倒吊人自愿倒悬，象征通过换一个角度看世界而获得顿悟。代表放下执着、静待时机、以牺牲换取更大洞见。",
       "meaning_reversed": "牺牲没有意义，或抗拒必要的放下。可能是无谓的自我消耗，或困在原地不愿改变。",
-      "symbols": ["倒悬（视角转换）", "光环（开悟）", "交叉的腿（4字）", "树（世界之树）"]
+      "symbols": [
+        "倒悬（视角转换）",
+        "光环（开悟）",
+        "交叉的腿（4字）",
+        "树（世界之树）"
+      ],
+      "reversal_profile": {
+        "primary": "blocked",
+        "secondary": "excessive",
+        "hint": "倒吊人逆位常是「知道该换个角度，但就是转不过来」"
+      }
     },
     {
       "id": "major-13",
       "name": "死神",
       "name_en": "Death",
-      "aliases": ["死亡", "13号牌", "重生"],
+      "aliases": [
+        "死亡",
+        "13号牌",
+        "重生"
+      ],
       "number": 13,
       "arcana": "major",
       "suit": null,
       "element": "水",
       "astrology": "天蝎座",
       "numerology": "13（终结、转化、重生）",
-      "keywords_upright": ["结束", "转化", "重生", "放下", "蜕变"],
-      "keywords_reversed": ["抗拒结束", "停滞", "恐惧改变", "拖泥带水"],
+      "keywords_upright": [
+        "结束",
+        "转化",
+        "重生",
+        "放下",
+        "蜕变"
+      ],
+      "keywords_reversed": [
+        "抗拒结束",
+        "停滞",
+        "恐惧改变",
+        "拖泥带水"
+      ],
       "meaning_upright": "死神并不代表肉体的死亡，而是象征一种彻底的结束与转化。旧的阶段落幕，为新生的可能腾出空间。是蜕变与重生的时刻。",
       "meaning_reversed": "抗拒必要的结束。可能是紧抓过去不放、害怕改变，导致停滞。提示需要允许旧事物离去。",
-      "symbols": ["骷髅骑士", "白玫瑰（重生）", "升起的太阳（新生）", "黑旗（终结）"]
+      "symbols": [
+        "骷髅骑士",
+        "白玫瑰（重生）",
+        "升起的太阳（新生）",
+        "黑旗（终结）"
+      ],
+      "reversal_profile": {
+        "primary": "blocked",
+        "secondary": "internalized",
+        "hint": "死神逆位多半是「明明结束了，还在拖」"
+      }
     },
     {
       "id": "major-14",
       "name": "节制",
       "name_en": "Temperance",
-      "aliases": ["节制", "14号牌", "调和"],
+      "aliases": [
+        "节制",
+        "14号牌",
+        "调和"
+      ],
       "number": 14,
       "arcana": "major",
       "suit": null,
       "element": "火",
       "astrology": "射手座",
       "numerology": "14（1+4=5，调和中的调整）",
-      "keywords_upright": ["平衡", "调和", "耐心", "适度", "融合", "从容"],
-      "keywords_reversed": ["失衡", "过度", "急躁", "失调", "顾此失彼"],
+      "keywords_upright": [
+        "平衡",
+        "调和",
+        "耐心",
+        "适度",
+        "融合",
+        "从容"
+      ],
+      "keywords_reversed": [
+        "失衡",
+        "过度",
+        "急躁",
+        "失调",
+        "顾此失彼"
+      ],
       "meaning_upright": "节制描绘天使调和双杯中的水，象征动态的平衡与耐心。是恰到好处、融合对立、从容不迫的能量。",
       "meaning_reversed": "平衡被打破。能量在过度与不足之间摆荡，节奏失调，本应融合的力量互相拉扯。",
-      "symbols": ["双杯倒水（调和）", "一脚水一脚陆（两界）", "远山（高远）", "王冠（升华）"]
+      "symbols": [
+        "双杯倒水（调和）",
+        "一脚水一脚陆（两界）",
+        "远山（高远）",
+        "王冠（升华）"
+      ],
+      "reversal_profile": {
+        "primary": "weakened",
+        "secondary": "excessive",
+        "hint": "节制逆位是那种「什么都想顾，结果哪头都没顾好」的失衡"
+      }
     },
     {
       "id": "major-15",
       "name": "恶魔",
       "name_en": "The Devil",
-      "aliases": ["魔鬼", "15号牌", "束缚"],
+      "aliases": [
+        "魔鬼",
+        "15号牌",
+        "束缚"
+      ],
       "number": 15,
       "arcana": "major",
       "suit": null,
       "element": "土",
       "astrology": "摩羯座",
       "numerology": "15（1+5=6，诱惑中的和谐）",
-      "keywords_upright": ["束缚", "诱惑", "成瘾", "执念", "物质主义", "阴影"],
-      "keywords_reversed": ["解脱", "挣脱束缚", "觉醒", "重获自由"],
+      "keywords_upright": [
+        "束缚",
+        "诱惑",
+        "成瘾",
+        "执念",
+        "物质主义",
+        "阴影"
+      ],
+      "keywords_reversed": [
+        "解脱",
+        "挣脱束缚",
+        "觉醒",
+        "重获自由"
+      ],
       "meaning_upright": "恶魔象征被束缚、诱惑与执念所困。链条看似紧扣，实则松动——束缚更多来自内心的恐惧与欲望。是面对阴影、审视执念的时刻。",
       "meaning_reversed": "从束缚中挣脱。可能是看清真相、放下执念、重获自由。提示觉察到那些自我设限的枷锁。",
-      "symbols": ["锁链（束缚）", "倒五角星（物质至上）", "男女长角（兽性）", "火炬（智慧之火）"]
+      "symbols": [
+        "锁链（束缚）",
+        "倒五角星（物质至上）",
+        "男女长角（兽性）",
+        "火炬（智慧之火）"
+      ],
+      "reversal_profile": {
+        "primary": "blocked",
+        "secondary": "internalized",
+        "hint": "恶魔逆位往往是「已经看见绳子了，但还没解开」"
+      }
     },
     {
       "id": "major-16",
       "name": "高塔",
       "name_en": "The Tower",
-      "aliases": ["塔", "16号牌", "雷击塔"],
+      "aliases": [
+        "塔",
+        "16号牌",
+        "雷击塔"
+      ],
       "number": 16,
       "arcana": "major",
       "suit": null,
       "element": "火",
       "astrology": "火星",
       "numerology": "16（1+6=7，剧变后的重建）",
-      "keywords_upright": ["剧变", "崩塌", "真相揭露", "觉醒", "突破"],
-      "keywords_reversed": ["避免灾祸", "延迟的改变", "恐惧改变", "缓和"],
+      "keywords_upright": [
+        "剧变",
+        "崩塌",
+        "真相揭露",
+        "觉醒",
+        "突破"
+      ],
+      "keywords_reversed": [
+        "避免灾祸",
+        "延迟的改变",
+        "恐惧改变",
+        "缓和"
+      ],
       "meaning_upright": "高塔被雷电击毁，象征突然的剧变与虚假结构的崩塌。虽然剧烈，却揭露真相、带来觉醒与重建的可能。",
       "meaning_reversed": "剧变的缓和或延迟。可能是侥幸避过危机，或因恐惧而拒绝必要的改变。",
-      "symbols": ["雷电（突然的启示）", "崩塌的塔", "坠落的人", "王冠（骄傲的崩塌）"]
+      "symbols": [
+        "雷电（突然的启示）",
+        "崩塌的塔",
+        "坠落的人",
+        "王冠（骄傲的崩塌）"
+      ],
+      "reversal_profile": {
+        "primary": "blocked",
+        "secondary": "internalized",
+        "hint": "高塔逆位常是「房子已经裂了，但还在补」"
+      }
     },
     {
       "id": "major-17",
       "name": "星星",
       "name_en": "The Star",
-      "aliases": ["星辰", "17号牌", "希望"],
+      "aliases": [
+        "星辰",
+        "17号牌",
+        "希望"
+      ],
       "number": 17,
       "arcana": "major",
       "suit": null,
       "element": "风",
       "astrology": "水瓶座",
       "numerology": "17（1+7=8，希望中的力量）",
-      "keywords_upright": ["希望", "疗愈", "灵感", "宁静", "信念", "指引"],
-      "keywords_reversed": ["失望", "失去信心", "灰心", "灵感枯竭"],
+      "keywords_upright": [
+        "希望",
+        "疗愈",
+        "灵感",
+        "宁静",
+        "信念",
+        "指引"
+      ],
+      "keywords_reversed": [
+        "失望",
+        "失去信心",
+        "灰心",
+        "灵感枯竭"
+      ],
       "meaning_upright": "星星在黑暗中闪耀，象征希望、疗愈与灵感。经历高塔的剧变后，星星带来宁静与信念，是疗愈与重建信心的时刻。",
       "meaning_reversed": "希望的暗淡。可能是失去信心、灵感枯竭，或对未来的失望。提示需要重新点燃内在的光。",
-      "symbols": ["八芒星（指引）", "倒水（疗愈）", "鸟（自由）", "大地与水域"]
+      "symbols": [
+        "八芒星（指引）",
+        "倒水（疗愈）",
+        "鸟（自由）",
+        "大地与水域"
+      ],
+      "reversal_profile": {
+        "primary": "weakened",
+        "secondary": "blocked",
+        "hint": "星星逆位不是没有光，是那点光离得太远，照不到眼前"
+      }
     },
     {
       "id": "major-18",
       "name": "月亮",
       "name_en": "The Moon",
-      "aliases": ["月亮", "18号牌", "幻象"],
+      "aliases": [
+        "月亮",
+        "18号牌",
+        "幻象"
+      ],
       "number": 18,
       "arcana": "major",
       "suit": null,
       "element": "水",
       "astrology": "双鱼座",
       "numerology": "18（1+8=9，幻象后的洞见）",
-      "keywords_upright": ["潜意识", "幻象", "不安", "直觉", "迷茫", "梦境"],
-      "keywords_reversed": ["幻象消散", "真相浮现", "走出迷雾", "澄清"],
+      "keywords_upright": [
+        "潜意识",
+        "幻象",
+        "不安",
+        "直觉",
+        "迷茫",
+        "梦境"
+      ],
+      "keywords_reversed": [
+        "幻象消散",
+        "真相浮现",
+        "走出迷雾",
+        "澄清"
+      ],
       "meaning_upright": "月亮象征潜意识、幻象与不安。月光下的世界朦胧不清，情绪与恐惧被放大。是面对内心迷雾、依赖直觉的时刻。",
       "meaning_reversed": "迷雾逐渐散去。可能是幻象消散、真相浮现，从迷茫中走出。",
-      "symbols": ["月亮（潜意识）", "两只狗（驯服与野性）", "龙虾（原始本能）", "道路（未知旅程）"]
+      "symbols": [
+        "月亮（潜意识）",
+        "两只狗（驯服与野性）",
+        "龙虾（原始本能）",
+        "道路（未知旅程）"
+      ],
+      "reversal_profile": {
+        "primary": "excessive",
+        "secondary": "weakened",
+        "hint": "月亮逆位有两种走向：一种是雾散了，一种是雾进了心里"
+      }
     },
     {
       "id": "major-19",
       "name": "太阳",
       "name_en": "The Sun",
-      "aliases": ["太阳", "19号牌", "成功"],
+      "aliases": [
+        "太阳",
+        "19号牌",
+        "成功"
+      ],
       "number": 19,
       "arcana": "major",
       "suit": null,
       "element": "火",
       "astrology": "太阳",
       "numerology": "19（1+9=10，圆满与新生）",
-      "keywords_upright": ["成功", "喜悦", "活力", "光明", "真相", "圆满"],
-      "keywords_reversed": ["短暂的挫折", "过度乐观", "延迟的成功"],
+      "keywords_upright": [
+        "成功",
+        "喜悦",
+        "活力",
+        "光明",
+        "真相",
+        "圆满"
+      ],
+      "keywords_reversed": [
+        "短暂的挫折",
+        "过度乐观",
+        "延迟的成功"
+      ],
       "meaning_upright": "太阳是塔罗中最积极的一张牌，象征成功、喜悦与生命力。孩子骑着白马在阳光下绽放，代表纯真的快乐与光明的前景。",
       "meaning_reversed": "成功的延迟或短暂的阴霾。可能是过度乐观，或喜悦被暂时的挫折遮蔽，但光明依旧在。",
-      "symbols": ["太阳（光明）", "孩子（纯真）", "白马（力量）", "向日葵（生机）"]
+      "symbols": [
+        "太阳（光明）",
+        "孩子（纯真）",
+        "白马（力量）",
+        "向日葵（生机）"
+      ],
+      "reversal_profile": {
+        "primary": "weakened",
+        "secondary": "blocked",
+        "hint": "太阳逆位多半是「该高兴的事，没高兴起来」"
+      }
     },
     {
       "id": "major-20",
       "name": "审判",
       "name_en": "Judgement",
-      "aliases": ["审判", "20号牌", "觉醒"],
+      "aliases": [
+        "审判",
+        "20号牌",
+        "觉醒"
+      ],
       "number": 20,
       "arcana": "major",
       "suit": null,
       "element": "火",
       "astrology": "冥王星",
       "numerology": "20（2+0=2，觉醒中的选择）",
-      "keywords_upright": ["觉醒", "重生", "召唤", "复盘", "内心的判决", "新阶段"],
-      "keywords_reversed": ["自我怀疑", "拒绝召唤", "内疚", "错过机会"],
+      "keywords_upright": [
+        "觉醒",
+        "重生",
+        "召唤",
+        "复盘",
+        "内心的判决",
+        "新阶段"
+      ],
+      "keywords_reversed": [
+        "自我怀疑",
+        "拒绝召唤",
+        "内疚",
+        "错过机会"
+      ],
       "meaning_upright": "审判象征觉醒与重生。天使吹响号角，召唤沉睡的灵魂苏醒。是对过往的复盘、内心的召唤，以及迈向新阶段的时刻。",
       "meaning_reversed": "拒绝内心的召唤，或被内疚、自我怀疑所困。可能错失觉醒的机会。",
-      "symbols": ["号角（召唤）", "复活的人", "十字旗", "大海（集体意识）"]
+      "symbols": [
+        "号角（召唤）",
+        "复活的人",
+        "十字旗",
+        "大海（集体意识）"
+      ],
+      "reversal_profile": {
+        "primary": "blocked",
+        "secondary": "internalized",
+        "hint": "审判逆位常是「心里已经答应了，人还没站起来」"
+      }
     },
     {
       "id": "major-21",
       "name": "世界",
       "name_en": "The World",
-      "aliases": ["世界", "21号牌", "完成"],
+      "aliases": [
+        "世界",
+        "21号牌",
+        "完成"
+      ],
       "number": 21,
       "arcana": "major",
       "suit": null,
       "element": "土",
       "astrology": "土星",
       "numerology": "21（2+1=3，圆满后的新生）",
-      "keywords_upright": ["完成", "圆满", "达成", "整合", "成功", "新的循环"],
-      "keywords_reversed": ["未完成", "缺憾", "停滞", "缺少收尾"],
+      "keywords_upright": [
+        "完成",
+        "圆满",
+        "达成",
+        "整合",
+        "成功",
+        "新的循环"
+      ],
+      "keywords_reversed": [
+        "未完成",
+        "缺憾",
+        "停滞",
+        "缺少收尾"
+      ],
       "meaning_upright": "世界是大阿卡纳的终点，象征完成、圆满与整合。舞者在桂冠花环中起舞，代表一个周期的圆满结束与新的开始。",
       "meaning_reversed": "接近完成却缺少最后一环。可能是功亏一篑、缺少收尾，或感到未竟的缺憾。",
-      "symbols": ["桂冠花环（圆满）", "四圣兽（四元素）", "舞者（和谐）", "双杖（天地）"]
+      "symbols": [
+        "桂冠花环（圆满）",
+        "四圣兽（四元素）",
+        "舞者（和谐）",
+        "双杖（天地）"
+      ],
+      "reversal_profile": {
+        "primary": "blocked",
+        "secondary": "weakened",
+        "hint": "世界逆位最典型的是「什么都做了，就是没结束」"
+      }
     }
   ]
 }

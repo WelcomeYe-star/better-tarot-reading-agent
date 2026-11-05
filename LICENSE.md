@@ -5,7 +5,7 @@
 本项目（`tarot/` 技能包，包含 SKILL.md、references 牌库、scripts 引擎）的**原创内容**（文案、结构、代码、组织方式）采用以下许可：
 
 ### 代码与脚本
-`scripts/` 下的 Python 代码采用 **MIT License**：
+`scripts/` 下的代码采用 **MIT License**：
 
 ```
 MIT License
